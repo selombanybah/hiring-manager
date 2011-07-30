@@ -1,0 +1,11 @@
+unisex,
+mythology,
+rare,
+common,
+urdu,
+parsi,
+boy,
+girl,
+modern,
+call-name,
+god-goddess
