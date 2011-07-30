@@ -16,4 +16,6 @@ To run the current codebase.
 
 3) create a mysql database with the dump at rootfolder/rct_july_30.sql.gz
 
-Any issues, get in touch
+4) Login with admin / admin123
+
+Play around, any issues, get in touch.
