@@ -4,10 +4,7 @@ $this->breadcrumbs=array(
 	'Add applicant',
 );
 
-$this->menu=array(
-	array('label'=>'List Applicant', 'url'=>array('index','vid'=>$this->_vacancy->id)),
-	array('label'=>'Manage Applicant', 'url'=>array('admin','vid'=>$this->_vacancy->id)),
-);
+
 ?>
 
 <h1>Add Applicant</h1>

@@ -29,7 +29,7 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
-                array('label'=>'Vacancy', 'url'=>array('/vacancy/index'), 'active' => (($this->id=='vacancy') && ($this->action->id=='index' || $this->action->id=='view' || $this->action->id=='admin'))),
+                array('label'=>'Vacancy', 'url'=>array('/vacancy/index'), 'active' => $this->id=='vacancy' || $this->id=='applicant'),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),

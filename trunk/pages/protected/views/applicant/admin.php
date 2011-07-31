@@ -1,13 +1,9 @@
 <?php
 $this->breadcrumbs=array(
-	'Applicants'=>array('index'),
-	'Manage',
+	'Vacancy('.$this->_vacancy->vacancy_code.')'=>array('vacancy/view','id'=>$this->_vacancy->id),
+	'Manage applicants',
 );
 
-$this->menu=array(
-	array('label'=>'List Applicant', 'url'=>array('index')),
-	array('label'=>'Create Applicant', 'url'=>array('create')),
-);
 
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
